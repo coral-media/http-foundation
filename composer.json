@@ -1,0 +1,29 @@
+{
+    "name": "coral-media/http-foundation",
+    "description": "Component to extend symfony/http-foundation component",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rafael Ernesto Espinosa Santiesteban <@rernesto>",
+            "email": "rernesto.espinosa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CoralMedia\\Component\\HttpFoundation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CoralMedia\\Component\\HttpFoundation\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-sodium": "*",
+        "symfony/http-foundation": "^5.3"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.3"
+    }
+}
