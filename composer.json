@@ -1,6 +1,7 @@
 {
     "name": "coral-media/http-foundation",
     "description": "Component to extend symfony/http-foundation component",
+    "version": "0.1.0",
     "license": "proprietary",
     "authors": [
         {
