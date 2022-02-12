@@ -39,7 +39,7 @@ class EncryptedSessionProxy extends SessionHandlerProxy
     {
         $data = parent::read($sessionId);
 
-        if ($data === false || empty($data) ) {
+        if ($data === false || empty($data)) {
             return $data;
         }
 
